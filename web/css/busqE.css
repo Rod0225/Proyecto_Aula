@@ -1,0 +1,134 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/Ohrusoft/images/fondo3.jpg");
+     
+}
+
+iframe{
+    width: 100%;
+    height: 1000px;
+    border:0;
+}
+
+aside{
+    background-color: black;
+    position: fixed;
+    height: 100px;
+    width: 2000rem;
+    top: 0px;
+    left: 0;
+    right: 0;
+    border: solid black;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+#perf{
+    height: 90px;
+    width: 90px;
+    top: 0px;
+    left: 15px;
+    z-index: 2;
+    position: relative;
+}
+
+#casa{
+    height: 90px;
+    width: 90px;
+    bottom: 90px;
+    left: 1805px;
+    z-index: 3;
+    position: relative;
+}
+
+p{
+    height: 90px;
+    width: 90px;
+    bottom: 180px;
+    left: 855px;
+    z-index: 3;
+    position: relative;
+    color: white;
+    font-size: 46px;
+}
+
+.bot{
+    display: block;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: 50%;
+}
+
+.bot:hover{
+    background-color: #9be6ff;
+    transition: 500ms;  
+    visibility: visible;
+    z-index: 1;
+}
+
+.rutas{
+   display: block;
+   justify-content: space-between;  
+}
+
+.rut{
+    position: relative;
+    top: 150px;
+    color: #262626;
+    background: #ff9933;
+    width: 100%;
+}
+
+#metro{
+   padding: 20px;
+}
+
+h1{
+    position: relative;
+    top: 40px;
+    text-align: right;
+    color: white;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    background: black;
+}
+
+.indi{
+    font-size: 36px
+}
+
+.combo{
+    width: 33.3%;
+    height: 100%;
+    float: left; 
+}
+
+.rutas{
+    width: 66.6%;
+    height: 100%;  
+    float: right;
+}
+
+select{
+    color: white;
+    background-color: black;
+    font-size: 23px;
+    border: solid 3px white;
+    height: 50px;
+    width: 90%;
+    position: relative;
+    top: 55px; 
+}

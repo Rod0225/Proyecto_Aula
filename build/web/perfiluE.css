@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5/06/2022, 01:07:46 PM
+    Author     : luisc
+*/
+body{
+    background-image: url("/Ohrusoft/images/fondo3.jpg");
+    background-repeat: no-repeat;
+}
+
+aside{
+    background-color: black;
+    position: fixed;
+    height: 95px;
+    width: 2000rem;
+    top: 0px;
+    left: 0;
+    right: 0;
+    border: solid black;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+#perf{
+    height: 90px;
+    width: 90px;
+    top: 0px;
+    left: 15px;
+    z-index: 2;
+    position: relative;
+}
+
+#casa{
+    height: 90px;
+    width: 90px;
+    bottom: 90px;
+    left: 1805px;
+    z-index: 3;
+    position: relative;
+}
+
+p{
+    height: 90px;
+    width: 90px;
+    bottom: 220px;
+    left: 855px;
+    z-index: 3;
+    position: relative;
+    color: white;
+    font-size: 46px;
+}
+
+.bot{
+    display: block;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: 50%;
+}
+
+.bot:hover{
+    background-color: #9be6ff;
+    transition: 500ms;  
+    visibility: visible;
+    z-index: 1;
+}
+
+.imgPerf{
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: solid 10px rgb(0, 0, 0);
+    width: 350px;
+    height: 350px;
+    position: fixed;
+    left: 100px;
+    top: 350px;
+    border: solid 5px white;
+    z-index: 1;
+}
+
+.fondoP{
+    border: solid 5px white;
+}
+
+.seccion{
+    border-radius: 60px;
+    width: 300px;
+    font-size: 28px;
+    position: relative;
+    left: 800px;
+    top: 35px;
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+    cursor: pointer;   
+}
+
+.seccion:hover{
+    background: white;
+    color: black;
+    transition: 500ms;
+}
+
+.divSec{
+    background-color: black;
+    height: 100%;
+    width: 1905px;
+    border-style: none;
+    position: fixed;
+}
+
+.divSec2{
+    background-color: white;
+    height: 100px;
+    width: 1905px;
+    border-style: none;
+    position: fixed;
+    opacity: .5;
+}
+
+
+.nPerfil{
+    color: white;
+    font-size: 80px;    
+    position: fixed;
+    left: 500px;
+    top: 510px;
+}

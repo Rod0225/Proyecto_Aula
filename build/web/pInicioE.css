@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/05/2022, 07:11:01 AM
+    Author     : Alumno
+*/
+* {
+    box-sizing: border-box;
+    background: #262626;
+  }
+  
+  body {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    overflow-x: hidden;
+  }
+  
+  .header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .content {
+    max-width: 40rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  
+  .header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .header-video video {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #303952;
+    z-index: 1;
+    opacity: .85;
+  }
+  
+  .header-content {
+    z-index: 2;
+    background: transparent
+  }
+  
+  .header-content h1 {
+    font-size: 100px;
+    margin-bottom: 0;
+    font-family: 'Prata', serif; 
+    background: transparent
+  }
+  
+  .header-content h3 {
+    font-family: 'Playfair Display SC', serif;
+    background: transparent
+  }
+  
+  .info{
+    position: absolute;
+    font-size: 32px;
+    top: 1135px;
+    z-index: 3;
+    color: white;
+    text-justify: auto;
+    text-align: center;
+  }
+  
+  .copy{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    clear: both;
+    background: black;
+    right: 200px;
+  }
+  
+  .val{
+    text-align: left;
+    position: relative;
+    left: 15px;
+  }
+  
+  i{
+    background: transparent;
+  }
+
+  a{
+    position: relative; 
+    left: 1350px; 
+    color: white; 
+    font-size: 24px; 
+    bottom: 660px; 
+    background: transparent;
+  }
+
+  a:link{
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: gray;
+    cursor: pointer;
+    transition: 500ms;
+  }

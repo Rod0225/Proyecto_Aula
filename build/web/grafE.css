@@ -1,0 +1,106 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("/Ohrusoft/images/fondo3.jpg");
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+	top: 20px;
+}
+
+#form-param {
+	padding: 20px;
+	background-color: #fff;
+	display: flex;
+}
+
+#form-param .container {
+    flex: 2;
+}
+
+#form-param .buttons {
+	flex: 1;
+}
+
+input {
+	padding: 9px;
+	margin: 6px;
+	width: 42%
+}
+
+button{
+	border: none;
+	padding: 9px;
+	display: block;
+	margin: 6px
+}
+
+button:first-child {
+	background-color: #48e;
+	color: #fff
+}
+
+aside{
+    background-color: black;
+    position: fixed;
+    height: 95px;
+    width: 2000rem;
+    top: 0px;
+    left: 0;
+    right: 0;
+    border: solid black;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+#perf{
+    height: 90px;
+    width: 90px;
+    top: 0px;
+    left: 15px;
+    z-index: 2;
+    position: relative;
+}
+
+#casa{
+    height: 90px;
+    width: 90px;
+    bottom: 100px;
+    left: 1805px;
+    z-index: 3;
+    position: relative;
+}
+
+p{
+    height: 90px;
+    width: 90px;
+    bottom: 180px;
+    left: 855px;
+    z-index: 3;
+    position: relative;
+    color: white;
+    font-size: 46px;
+}
+
+.bot{
+    display: block;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: 50%;
+}
+
+.bot:hover{
+    background-color: #9be6ff;
+    transition: 500ms;  
+    visibility: visible;
+    z-index: 1;
+}
